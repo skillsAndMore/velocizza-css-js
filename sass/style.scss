@@ -20,3 +20,15 @@
   p{
     content: somma( 1, 4 ); //5
   }
+
+  //Mixin dichiarazione
+  @mixin border-radius( $rad ) {
+    -moz-border-radius: $rad;
+    -webkit-border-radius: $rad;
+    border-radius: $rad;
+  }
+
+  //Mixin in uso
+  #box{
+    @include border-radius( 5px );
+  }

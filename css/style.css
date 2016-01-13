@@ -5,4 +5,9 @@ p {
 p {
   content: 5; }
 
+#box {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+
 /*# sourceMappingURL=style.css.map */
